@@ -91,7 +91,7 @@ export function generateLocalBusinessSchema(areaName?: string) {
       : "https://ramenterpriseschennai.com",
     "telephone": "+91 90305 05683",
     "alternatePhone": "+91 90309 05683",
-    "email": "ramenterpriseschennai@gmail.com",
+    "email": "info.ramenterpriseschennai@gmail.com",
     "image": "https://ramenterpriseschennai.com/images/og-image.webp",
     "logo": "https://ramenterpriseschennai.com/images/logo/ram-enterprises-logo-light.svg",
     "priceRange": "₹₹",
@@ -229,7 +229,7 @@ export function generateServiceSchema(serviceName: string, categoryName?: string
       "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
       "name": "Ram Enterprises",
       "telephone": "+91 90305 05683",
-      "email": "ramenterpriseschennai@gmail.com",
+      "email": "info.ramenterpriseschennai@gmail.com",
       "url": "https://ramenterpriseschennai.com",
       "address": {
         "@type": "PostalAddress",
@@ -264,7 +264,7 @@ export function generateServiceAreaSchema(serviceName: string, areaName: string)
       "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
       "name": "Ram Enterprises",
       "telephone": "+91 90305 05683",
-      "email": "ramenterpriseschennai@gmail.com",
+      "email": "info.ramenterpriseschennai@gmail.com",
       "url": "https://ramenterpriseschennai.com",
       "address": {
         "@type": "PostalAddress",

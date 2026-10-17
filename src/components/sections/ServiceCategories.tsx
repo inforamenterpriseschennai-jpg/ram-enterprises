@@ -20,7 +20,7 @@ const categories: Category[] = [
     id: 1,
     name: "Safety Net Solutions",
     count: "10 Specialized Services",
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/main-images/balcony-safetynets.webp",
     icon: <Shield className="w-6 h-6 text-white" />,
     description: "Fortify balconies, stairwells, and open building shafts with certified UV-treated copolymer netting for total toddler and pet safety.",
     slug: "safety-nets",

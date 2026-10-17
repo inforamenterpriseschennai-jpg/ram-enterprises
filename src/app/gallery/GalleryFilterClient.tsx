@@ -17,7 +17,7 @@ interface GalleryPhoto {
 
 const galleryData: GalleryPhoto[] = [
   {
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/main-images/balcony-safetynets.webp",
     category: "apartment",
     categoryLabel: "Apartment Installations",
     location: "Adyar, Chennai, Tamil Nadu",
@@ -49,7 +49,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Insured field technicians securing brackets at high floor structures.",
   },
   {
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/materials/Materials7.jpeg",
     category: "materials",
     categoryLabel: "Materials",
     location: "Chennai, Tamil Nadu Central",
@@ -65,7 +65,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Cricket practice pitches netting boundary cage installation.",
   },
   {
-    image: "/images/services/child.webp",
+    image: "/images/main-images/balcony-work-real.jpg",
     category: "apartment",
     categoryLabel: "Apartment Installations",
     location: "Porur, Chennai, Tamil Nadu",
@@ -73,7 +73,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Reinforced kid-safe boundary mesh tied securely around open railings.",
   },
   {
-    image: "/images/hero/windowgrill.webp",
+    image: "/images/main-images/window-grills-real.webp",
     category: "invisible-grills",
     categoryLabel: "Invisible Grills",
     location: "Madipakkam, Chennai, Tamil Nadu",
@@ -89,7 +89,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Folding accordion-style wall hangers collapsing flat against the frames.",
   },
   {
-    image: "/images/hero/constructionnet.webp",
+    image: "/images/materials/FactoryNets.jpeg",
     category: "projects",
     categoryLabel: "Projects",
     location: "Velachery, Chennai, Tamil Nadu",
@@ -105,7 +105,7 @@ const galleryData: GalleryPhoto[] = [
     description: "Open building duct ventilation shaft sealed cleanly to block birds.",
   },
   {
-    image: "/images/hero/pigeonnet.jpg",
+    image: "/images/main-images/building-duct-pigeon-netting.jpg",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
     location: "Tambaram, Chennai, Tamil Nadu",
@@ -119,6 +119,54 @@ const galleryData: GalleryPhoto[] = [
     location: "Guindy, Chennai, Tamil Nadu",
     serviceName: "Monkey Safety Nets",
     description: "Heavy-duty reinforced monkey defense netting installed around open terrace and balconies.",
+  },
+  {
+    image: "/images/main-images/pet-safetynets-real.jpeg",
+    category: "safety-nets",
+    categoryLabel: "Safety Nets",
+    location: "OMR, Chennai, Tamil Nadu",
+    serviceName: "Pet Safety Nets",
+    description: "Claw-resistant safety netting installed for cats and dogs on high-rise balcony.",
+  },
+  {
+    image: "/images/main-images/bird-spikes-real.jpg",
+    category: "safety-nets",
+    categoryLabel: "Safety Nets",
+    location: "Nungambakkam, Chennai, Tamil Nadu",
+    serviceName: "Anti-Bird Spikes",
+    description: "Rustproof stainless steel bird spikes installed on architectural window ledges.",
+  },
+  {
+    image: "/images/main-images/balcony-invisible-grills-real.jpg",
+    category: "invisible-grills",
+    categoryLabel: "Invisible Grills",
+    location: "Perungudi, Chennai, Tamil Nadu",
+    serviceName: "Children Invisible Grills",
+    description: "High-tension 2-inch spaced SS316 wire invisible grills preserving balcony openness.",
+  },
+  {
+    image: "/images/main-images/cricket-practice-net.jpg",
+    category: "projects",
+    categoryLabel: "Projects",
+    location: "Mylapore, Chennai, Tamil Nadu",
+    serviceName: "Cricket Practice Nets",
+    description: "Custom turf and rooftop cricket practice netting enclosure.",
+  },
+  {
+    image: "/images/main-images/ceiling-cloth-hangers-1.jpg",
+    category: "cloth-hangers",
+    categoryLabel: "Cloth Hangers",
+    location: "Sholinganallur, Chennai, Tamil Nadu",
+    serviceName: "Ceiling Cloth Hangers",
+    description: "Individual rod hoist stainless pulley drying system mounted to utility balcony ceiling.",
+  },
+  {
+    image: "/images/materials/materias5.jpeg",
+    category: "materials",
+    categoryLabel: "Materials",
+    location: "Chennai, Tamil Nadu",
+    serviceName: "SS316 Marine Cable Hardware",
+    description: "Aircraft-grade stainless steel cables with clear nylon sleeve and heavy-duty anchors.",
   },
 ];
 

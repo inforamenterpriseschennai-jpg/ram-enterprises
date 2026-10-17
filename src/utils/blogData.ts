@@ -74,7 +74,7 @@ export const blogData: Record<string, BlogArticle> = {
     readingTime: "4 min read",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/main-images/balcony-safetynets.webp",
     summary: "Discover the differences between copolymer nylon and HDPE safety nets, anchoring methodologies, and how to get maximum durability for high-rise balconies.",
     introduction: "Safety netting offers a proven, budget-friendly way to secure high-floor balconies. Understanding the distinction between UV-treated HDPE and untreated nylon helps you choose a system that lasts for years without sagging.",
     contentBlocks: [
@@ -117,7 +117,7 @@ export const blogData: Record<string, BlogArticle> = {
     readingTime: "6 min read",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
-    image: "/images/services/child.webp",
+    image: "/images/main-images/balcony-work-real.jpg",
     summary: "Essential child safety guide for parents in multi-story apartments. Learn how to identify and eliminate high-altitude fall hazards on balconies and windows.",
     introduction: "Modern high-rise apartments provide fantastic living amenities, but open railings and low window sills require proactive childproofing. Here is how to create a hazard-free home environment for toddlers and active children.",
     contentBlocks: [
@@ -160,7 +160,7 @@ export const blogData: Record<string, BlogArticle> = {
     readingTime: "5 min read",
     category: "safety-nets",
     categoryLabel: "Safety Nets",
-    image: "/images/hero/pigeonnet.jpg",
+    image: "/images/main-images/building-duct-pigeon-netting.jpg",
     summary: "Stop pigeon nesting, foul odor, and health risks in apartment balconies with certified anti-bird netting and stainless bird spikes.",
     introduction: "Pigeon droppings carry over 60 transferable pathogen types, including fungal spores that cause serious respiratory ailments. Here is a definitive guide on how humane bird netting seals balconies permanently without hurting the birds.",
     contentBlocks: [

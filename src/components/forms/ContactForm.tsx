@@ -140,7 +140,7 @@ export default function ContactForm() {
               </div>
 
               <a
-                href="mailto:ramenterpriseschennai@gmail.com"
+                href="mailto:info.ramenterpriseschennai@gmail.com"
                 className="flex items-center gap-4 bg-white/10 backdrop-blur-xs p-5 rounded-2xl border border-white/10 hover:border-[#B87333]/50 hover:shadow-md transition-all group"
               >
                 <div className="p-3 bg-[#B87333] text-white rounded-xl shrink-0 group-hover:bg-[#D08A52] transition-colors duration-300">
@@ -151,7 +151,7 @@ export default function ContactForm() {
                     Email Inquiry
                   </span>
                   <span className="text-sm sm:text-base font-bold text-white group-hover:text-[#B87333] transition-colors truncate block max-w-[240px] sm:max-w-none">
-                    ramenterpriseschennai@gmail.com
+                    info.ramenterpriseschennai@gmail.com
                   </span>
                 </div>
               </a>

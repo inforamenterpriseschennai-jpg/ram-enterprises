@@ -33,7 +33,7 @@ const teamWorkGallery: GalleryItem[] = [
   },
   {
     id: 5,
-    image: "/images/services/Shayamstaircase-grills.jpg",
+    image: "/images/main-images/window-grills-real.webp",
     caption: "Duplex Staircase Safety Wire Inspection",
   },
   {

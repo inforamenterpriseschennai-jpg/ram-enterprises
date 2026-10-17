@@ -94,7 +94,7 @@ export async function fetchSiteSettings() {
       businessName: "Ram Enterprises",
       phone: "+91 90305 05683",
       secondaryPhone: "+91 90309 05683",
-      email: "ramenterpriseschennai@gmail.com",
+      email: "info.ramenterpriseschennai@gmail.com",
       showNewsletter: true,
       socialLinks: {
         facebook: "https://facebook.com/ramenterpriseschennai",
@@ -117,7 +117,7 @@ export async function fetchSiteSettings() {
       businessName: "Ram Enterprises",
       phone: "+91 90305 05683",
       secondaryPhone: "+91 90309 05683",
-      email: "ramenterpriseschennai@gmail.com",
+      email: "info.ramenterpriseschennai@gmail.com",
       showNewsletter: true,
       socialLinks: {
         facebook: "https://facebook.com/ramenterpriseschennai",

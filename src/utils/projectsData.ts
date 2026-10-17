@@ -50,7 +50,7 @@ export const projectsData: Record<string, ProjectDetail> = {
     image: "/images/materials/Balconynetwork.jpeg",
     gallery: [
       "/images/materials/Balconynetwork.jpeg",
-      "/images/services/child.webp",
+      "/images/main-images/balcony-safetynets.webp",
       "/images/materials/FactoryNets.jpeg",
     ],
     beforeImage: "/images/gallery/before_balcony.png",
@@ -88,14 +88,14 @@ export const projectsData: Record<string, ProjectDetail> = {
       "Applied calibrated hydraulic tensioning across all vertical lines (3-inch pitch).",
       "Performed acoustic resonance and tension stability verification.",
     ],
-    image: "/images/services/shyambalconygrills.jpg",
+    image: "/images/main-images/Balcony-Grills.jpg",
     gallery: [
-      "/images/services/shyambalconygrills.jpg",
-      "/images/services/shyamchildreninvisiblegrills.jpg",
-      "/images/services/Shayamstaircase-grills.jpg",
+      "/images/main-images/Balcony-Grills.jpg",
+      "/images/main-images/balcony-invisible-grills-real.jpg",
+      "/images/main-images/window-grills-real.webp",
     ],
     beforeImage: "/images/gallery/before_balcony.png",
-    afterImage: "/images/services/shyambalconygrills.jpg",
+    afterImage: "/images/main-images/balcony-invisible-grills-real.jpg",
     specs: [
       { label: "Cable Composition", value: "SS316 Marine Stainless (Bite & Rust Proof)" },
       { label: "Cable Pitch", value: "75mm (3 Inches) Architectural Spacing" },

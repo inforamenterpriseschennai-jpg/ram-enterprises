@@ -146,12 +146,12 @@ export default function Navbar() {
             </a>
 
             <a
-              href="mailto:ramenterpriseschennai@gmail.com"
+              href="mailto:info.ramenterpriseschennai@gmail.com"
               className="hidden sm:flex items-center gap-1.5 hover:text-[#B87333] transition-colors text-slate-300"
               aria-label="Email Us"
             >
               <Mail className="w-3.5 h-3.5 text-[#B87333]" />
-              <span className="truncate max-w-[200px] md:max-w-none">ramenterpriseschennai@gmail.com</span>
+              <span className="truncate max-w-[200px] md:max-w-none">info.ramenterpriseschennai@gmail.com</span>
             </a>
           </div>
         </div>
@@ -160,11 +160,11 @@ export default function Navbar() {
       {/* PART 2 & 3: MAIN STICKY NAVBAR (White Background with Soft Shadow) */}
       <header
         className={`fixed top-[34px] left-0 right-0 z-40 transition-all duration-300 ease-in-out bg-white border-b border-[#E5E7EB] ${
-          isScrolled ? "shadow-md py-2.5" : "py-3.5"
+          isScrolled ? "shadow-md py-1.5" : "py-2 sm:py-2.5"
         }`}
         ref={megaMenuRef}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* LOGO */}
             <div className="flex items-center shrink-0">
@@ -455,11 +455,11 @@ export default function Navbar() {
                   <span>Chat on WhatsApp</span>
                 </a>
                 <a
-                  href="mailto:ramenterpriseschennai@gmail.com"
+                  href="mailto:info.ramenterpriseschennai@gmail.com"
                   className="bg-slate-100 hover:bg-slate-200 text-[#0F2137] py-3 text-center rounded-full text-sm font-bold flex items-center justify-center gap-2 transition-colors"
                 >
                   <Mail className="w-4 h-4 text-[#0F2137]" />
-                  <span>ramenterpriseschennai@gmail.com</span>
+                  <span>info.ramenterpriseschennai@gmail.com</span>
                 </a>
               </div>
             </div>

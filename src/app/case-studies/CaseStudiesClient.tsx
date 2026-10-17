@@ -35,7 +35,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Securing Multi-Story Balcony Railings at Skyview Residency",
     location: "Adyar, Chennai, Tamil Nadu",
     serviceCategory: "Balcony Safety Nets",
-    image: "/images/hero/balconysafetynet.jpg",
+    image: "/images/main-images/balcony-safetynets.webp",
     challenge:
       "A young family with toddlers moving into a 14th-floor corner apartment faced severe anxiety over modern horizontal open railings with wide 6-inch gap spacing.",
     solution:
@@ -51,7 +51,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Panoramic Sea-View Invisible Grills at Ocean Crest Penthouse",
     location: "Velachery, Chennai, Tamil Nadu",
     serviceCategory: "Balcony Invisible Grills",
-    image: "/images/services/shyambalconygrills.jpg",
+    image: "/images/main-images/balcony-invisible-grills-real.jpg",
     challenge:
       "A penthouse resident needed robust fall protection for grandchildren and a golden retriever without obstructing a breathtaking 180-degree ocean view or rusting from coastal saline mist.",
     solution:
@@ -99,7 +99,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Commercial Facility Anti-Pigeon Ledge Spikes Installation",
     location: "T. Nagar, Chennai, Tamil Nadu",
     serviceCategory: "Anti-Bird Spikes",
-    image: "/images/hero/service-spikes.jpg",
+    image: "/images/main-images/bird-spikes-real.jpg",
     challenge:
       "Pigeons continuously roosted on narrow exterior window ledges and air-handling unit casings at a commercial hospital facility in T. Nagar, staining facades.",
     solution:

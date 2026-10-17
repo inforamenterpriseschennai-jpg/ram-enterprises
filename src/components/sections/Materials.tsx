@@ -26,7 +26,7 @@ const materials: Material[] = [
   {
     id: 2,
     name: "Child & Pet Safety High-Tensile Webbing",
-    image: "/images/services/child.webp",
+    image: "/images/materials/Materials7.jpeg",
     specs: [
       "Multi-filament braided knot reinforcement",
       "Smooth non-abrasive coating safe for young hands",

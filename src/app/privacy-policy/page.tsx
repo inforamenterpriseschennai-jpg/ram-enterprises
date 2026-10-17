@@ -229,8 +229,8 @@ export default function PrivacyPolicyPage() {
                   </div>
                   <div>
                     <span className="text-slate-400 block">Email Inquiries</span>
-                    <a href="mailto:ramenterpriseschennai@gmail.com" className="font-bold text-white hover:text-amber-300">
-                      ramenterpriseschennai@gmail.com
+                    <a href="mailto:info.ramenterpriseschennai@gmail.com" className="font-bold text-white hover:text-amber-300">
+                      info.ramenterpriseschennai@gmail.com
                     </a>
                   </div>
                 </div>
