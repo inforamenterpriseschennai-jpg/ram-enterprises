@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://ramenterpriseschennai.com"),
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google6c0d20c12b2851bb",
+    google: "vhuHKapD9-4vTB1wbsbVx56_Y3f0E-k9c7XiKrVMEEw",
   },
   alternates: {
     canonical: "/",
@@ -104,6 +104,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <meta name="google-site-verification" content="vhuHKapD9-4vTB1wbsbVx56_Y3f0E-k9c7XiKrVMEEw" />
         {/* Favicon fallback tags for all browsers & search engines */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
