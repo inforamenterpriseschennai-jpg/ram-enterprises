@@ -124,6 +124,24 @@ export default function RootLayout({
           Skip to main content
         </a>
 
+        {/* Google tag (gtag.js) - Google Ads */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18519497373"
+        />
+        <Script
+          id="google-ads-gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18519497373');
+            `,
+          }}
+        />
+
         {/* LocalBusiness JSON-LD Schema */}
         <Script
           id="local-business-schema"

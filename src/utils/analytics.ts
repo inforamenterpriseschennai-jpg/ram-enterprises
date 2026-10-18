@@ -13,6 +13,15 @@ function pushToDataLayer(obj: DataLayerObject) {
     win.dataLayer = win.dataLayer || [];
     win.dataLayer.push(obj);
 
+    // Google Tag / Google Ads gtag custom event support
+    if (typeof win.gtag === "function") {
+      win.gtag("event", obj.event, {
+        event_category: obj.category,
+        event_label: obj.label,
+        ...obj,
+      });
+    }
+
     // Microsoft Clarity custom event support
     if (typeof win.clarity === "function") {
       win.clarity("event", obj.event, {
