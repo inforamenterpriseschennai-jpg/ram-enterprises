@@ -93,9 +93,9 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-[#B87333] shrink-0 mt-1" />
                 <div>
-                  <span className="font-bold text-white block">Office Location</span>
+                  <span className="font-bold text-white block">Office Locations</span>
                   <span className="block text-sm text-[#D1D5DB] mt-1">
-                    Chennai, Tamil Nadu
+                    Kaaraikudi &amp; Chennai, Tamil Nadu
                   </span>
                 </div>
               </li>

@@ -86,9 +86,12 @@ export default function ContactPage() {
               <div className="flex gap-3">
                 <MapPin className="w-5 h-5 text-[#B87333] shrink-0 mt-0.5" />
                 <div className="flex flex-col gap-1">
-                  <span className="text-[10px] uppercase font-bold text-slate-500">Service Coverage Area</span>
+                  <span className="text-[10px] uppercase font-bold text-slate-500">Office Locations &amp; Coverage</span>
                   <span className="text-sm font-bold text-slate-700 mt-1">
-                    Chennai, Tamil Nadu (Adyar, Velachery, Anna Nagar, T. Nagar, Tambaram, Porur, Madipakkam)
+                    Kaaraikudi &amp; Chennai, Tamil Nadu
+                  </span>
+                  <span className="text-xs text-slate-500">
+                    Direct installation support across Chennai &amp; Kaaraikudi
                   </span>
                 </div>
               </div>

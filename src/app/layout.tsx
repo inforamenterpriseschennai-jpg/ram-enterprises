@@ -4,6 +4,7 @@ import Script from "next/script";
 import Navbar from "@/components/navigation/Navbar";
 import Footer from "@/components/navigation/Footer";
 import FloatingCTA from "@/components/shared/FloatingCTA";
+import FloatingLeftContact from "@/components/shared/FloatingLeftContact";
 import CookieConsent from "@/components/ui/CookieConsent";
 import "./globals.css";
 
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://ramenterpriseschennai.com"),
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE",
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google6c0d20c12b2851bb",
   },
   alternates: {
     canonical: "/",
@@ -124,6 +125,7 @@ export default function RootLayout({
         <main className="flex-grow pt-[84px] sm:pt-[92px]">{children}</main>
         <Footer />
         <FloatingCTA />
+        <FloatingLeftContact />
         <CookieConsent />
       </body>
     </html>
