@@ -46,6 +46,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* WCAG 2.1 AA High-Contrast Focus Ring */
+:focus-visible {
+  outline: 2px solid #B87333 !important;
+  outline-offset: 3px !important;
+}
+
 /* Custom premium scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

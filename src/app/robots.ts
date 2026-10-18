@@ -11,7 +11,6 @@ export default function robots(): MetadataRoute.Robots {
         "/temp/",
         "/development/",
         "/api/",
-        "/_next/",
       ],
     },
     sitemap: "https://ramenterpriseschennai.com/sitemap.xml",

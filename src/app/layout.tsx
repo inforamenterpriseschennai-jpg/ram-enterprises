@@ -105,6 +105,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <meta name="google-site-verification" content="vhuHKapD9-4vTB1wbsbVx56_Y3f0E-k9c7XiKrVMEEw" />
+        <link rel="preload" as="image" href="/images/main-images/Balcony-Grills.webp" fetchPriority="high" type="image/webp" />
         {/* Favicon fallback tags for all browsers & search engines */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -115,6 +116,14 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} antialiased bg-white text-slate-900 flex flex-col min-h-screen selection:bg-[#B87333] selection:text-white`}
       >
+        {/* WCAG 2.1 AA Skip to Content Link */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2.5 focus:bg-[#0F2137] focus:text-white focus:rounded-xl focus:shadow-2xl focus:outline-hidden focus:ring-2 focus:ring-[#B87333] font-bold text-xs"
+        >
+          Skip to main content
+        </a>
+
         {/* LocalBusiness JSON-LD Schema */}
         <Script
           id="local-business-schema"
@@ -123,7 +132,7 @@ export default function RootLayout({
         />
 
         <Navbar />
-        <main className="flex-grow pt-[84px] sm:pt-[92px]">{children}</main>
+        <main id="main-content" className="flex-grow pt-[84px] sm:pt-[92px]">{children}</main>
         <Footer />
         <FloatingCTA />
         <FloatingLeftContact />

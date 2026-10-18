@@ -125,10 +125,12 @@ export default function QuickLeadForm({
 
           {/* Name Field */}
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">Your Full Name *</label>
+            <label htmlFor="quick-lead-name" className="block text-xs font-bold text-slate-700 mb-1">Your Full Name *</label>
             <input
+              id="quick-lead-name"
               type="text"
               placeholder="e.g. Ramesh Kumar"
+              aria-required="true"
               {...register("name")}
               className={`w-full px-3.5 py-2.5 text-sm bg-slate-50 border ${
                 errors.name ? "border-rose-400 bg-rose-50/20" : "border-slate-200"
@@ -139,15 +141,17 @@ export default function QuickLeadForm({
 
           {/* Phone Field */}
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Phone Number *</label>
+            <label htmlFor="quick-lead-phone" className="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Phone Number *</label>
             <div className="relative">
               <span className="absolute left-3.5 top-1/2 -translate-y-1/2 text-xs font-semibold text-slate-400">
                 +91
               </span>
               <input
+                id="quick-lead-phone"
                 type="tel"
                 placeholder="98765 43210"
                 maxLength={10}
+                aria-required="true"
                 {...register("phone")}
                 className={`w-full pl-12 pr-3.5 py-2.5 text-sm bg-slate-50 border ${
                   errors.phone ? "border-rose-400 bg-rose-50/20" : "border-slate-200"
@@ -159,12 +163,14 @@ export default function QuickLeadForm({
 
           {/* Locality Field */}
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">
+            <label htmlFor="quick-lead-locality" className="block text-xs font-bold text-slate-700 mb-1">
               Neighborhood / Area in {cityName} *
             </label>
             <input
+              id="quick-lead-locality"
               type="text"
               placeholder={`e.g. Apartment name / Locality`}
+              aria-required="true"
               {...register("locality")}
               className={`w-full px-3.5 py-2.5 text-sm bg-slate-50 border ${
                 errors.locality ? "border-rose-400 bg-rose-50/20" : "border-slate-200"

@@ -69,18 +69,26 @@ export default function FAQAccordion() {
                 className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs transition-all"
               >
                 <button
+                  type="button"
                   onClick={() => setOpenIndex(isOpen ? null : index)}
-                  className="w-full text-left p-5 sm:p-6 flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-white transition-colors cursor-pointer"
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${index}`}
+                  className="w-full text-left p-5 sm:p-6 flex items-center justify-between gap-4 font-bold text-slate-900 hover:text-[#B87333] transition-colors cursor-pointer"
                 >
                   <span className="text-sm sm:text-base">{faq.question}</span>
                   <ChevronDown
+                    aria-hidden="true"
                     className={`w-5 h-5 text-[#B87333] shrink-0 transition-transform duration-300 ${
                       isOpen ? "rotate-180" : ""
                     }`}
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-5 sm:px-6 pb-6 pt-0 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+                  <div
+                    id={`faq-answer-${index}`}
+                    role="region"
+                    className="px-5 sm:px-6 pb-6 pt-0 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4"
+                  >
                     {faq.answer}
                   </div>
                 )}

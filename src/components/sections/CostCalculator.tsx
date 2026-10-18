@@ -99,7 +99,7 @@ export default function CostCalculator() {
             {/* Step 2: Slider for Area / Quantity */}
             <div>
               <div className="flex justify-between items-center mb-2">
-                <label className="text-xs font-extrabold uppercase tracking-wider text-slate-500">
+                <label htmlFor="calc-area-range" className="text-xs font-extrabold uppercase tracking-wider text-slate-500">
                   2. Approximate Area / Dimension
                 </label>
                 <span className="text-sm font-black text-[#0F2137] bg-[#FDF6F0] px-3 py-1 rounded-lg border border-[#F2D2BD]">
@@ -107,12 +107,14 @@ export default function CostCalculator() {
                 </span>
               </div>
               <input
+                id="calc-area-range"
                 type="range"
                 min="40"
                 max="600"
                 step="10"
                 value={areaSqFt}
                 onChange={(e) => setAreaSqFt(Number(e.target.value))}
+                aria-label={`Approximate area in ${selectedService.unit}`}
                 className="w-full h-2.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#0F2137]"
               />
               <div className="flex justify-between text-[11px] text-slate-400 font-semibold mt-1">
